@@ -5,8 +5,11 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"> 
   <!--<changeSet author="authorName" id="changelog-1.0">
-    <createTable tableName="Prueba">
-      <column name="COLUMN1" type="TEXT">
+    <createTable tableName="C_PRUEBA">
+      <column name="ID" type="INT">
+        <constraints nullable="true" primaryKey="false" unique="false"/>
+      </column>
+      <column name="DS_NAME" type="VARCHAR(50)">
         <constraints nullable="true" primaryKey="false" unique="false"/>
       </column>
     </createTable>
