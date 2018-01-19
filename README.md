@@ -11,7 +11,7 @@ Serás capaz de poder construir esquema en cualquier base de datos con un solo d
 ## Documentación
 
 Dentro de la siguiente ruta en este repositorio podrás encontrar la documentación
-[Documentacion Liquibase](https://github.com/IngJavierR/liquibase/tree/master/drivers)
+[Documentacion Liquibase](https://github.com/IngJavierR/liquibase/blob/master/documentacion)
 
 Mas detalles en: 
 [Pagina oficial liquibase](http://www.liquibase.org/)

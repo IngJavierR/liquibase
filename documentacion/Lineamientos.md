@@ -15,12 +15,13 @@ En caso de ser estrictamente necesario alterar las tablas de control,se debe not
 
 ## Generación de nuevos archivos changelog
 
-`<databaseChangeLog
-  xmlns="http://www.li....>
+```xml
+<databaseChangeLog xmlns="http://www.li....">
   <include file="db.changelog-1.0.xml"/> 
   <include file="db.changelog-1.1.xml"/> 
   <include file="db.changelog-2.0.xml"/> 
-</databaseChangeLog>`
+</databaseChangeLog>
+```
 
 * Se deberá generar un nuevo archivo changelog en cada nueva (version, sprint, entregable) para poder relacionar nuestra version de bd con la versión del código correspondiente.
 
