@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd"> 
-    <!-- <changeSet author="authorName" id="changelog-1.0">
+    <!--<changeSet author="authorName" id="changelog-1.0">
         <createTable tableName="C_PRUEBA">
             <column name="ID" type="INT">
                 <constraints nullable="true" primaryKey="false" unique="false"/>
@@ -13,5 +13,5 @@
                 <constraints nullable="true" primaryKey="false" unique="false"/>
             </column>
         </createTable>
-    </changeSet> -->
+    </changeSet>-->
 </databaseChangeLog> 
